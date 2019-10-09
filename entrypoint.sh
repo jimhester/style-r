@@ -63,7 +63,7 @@ git checkout -b $HEAD_BRANCH pr/$HEAD_BRANCH
 # Document
 Rscript -e 'styler::style_pkg()'
 
-git add \*.R \*.r
+git add \*.R
 git commit -m 'Style'
 
 # push back
